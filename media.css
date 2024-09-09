@@ -1,0 +1,348 @@
+/*  +++++++++++++++++++
+++++++++++++++++++++++++++
+    First Break Point
+++++++++++++++++++++++++++
+    +++++++++++++++++++ */
+@media(max-width:1030px){
+    .Main_Solution_Container,
+    .Main_Buisness_support_container,
+    .Main_team_Members_container,
+    .Main_testimonial_container,
+    .Main_price_plans_container,
+    .section-cta,
+    .Main_heroSection_container,
+    .Main-services-container{
+        padding: 2rem 5rem;
+    }
+    .service_box{
+        padding: 18px;
+    }
+    .service_title_container h5,
+    .Solution_title_container h5,
+    .Business_support_content h5,
+    .Team_member_titel_container h5,
+    .testimonial_title_container h5,
+    .price_plans_title h5{
+        font-size: 16px;
+    }
+    .service_title_container h1,
+    .Solution_title_container h2,
+    .Business_support_content h2,
+    .Team_member_titel_container h2,
+    .testimonial_title_container h2,
+    .price_plans_title h2,
+    .heading-secondary{
+        font-size: 26px;
+        padding-bottom: 2rem;
+    }
+    .team_member_img img{
+        height: 10rem;
+    }
+    .team_member_detail{
+        padding: 10px;
+        position: absolute;
+        top: 175px;
+        left: 23px;
+        transform: translatey(-50%);
+    }
+    .team_member_detail h3{
+        font-size: 14px;
+    }
+    .team_member_detail h4{
+        font-size: 12px;
+    }
+    .Buisness_support_Image img{
+        width: 100%;
+    }
+    .sub_wrapper{
+        display: block;
+        /* padding: rem 1.5rem; */
+    }
+}
+
+/*  +++++++++++++++++++
+++++++++++++++++++++++++++
+    Second Break Point
+++++++++++++++++++++++++++
+    +++++++++++++++++++ */
+@media(max-width:830px){
+    .Main_Solution_Container,
+    .Main_Buisness_support_container,
+    .Main_team_Members_container,
+    .Main_testimonial_container,
+    .Main_price_plans_container,
+    .section-cta,
+    .Main_heroSection_container,
+    .Main-services-container{
+        padding: 2rem 3rem;
+    }.content h3{
+        font-size: 1.2rem;
+     }
+     .content h1{
+        font-size: 3rem;
+    }
+    .services_content_box_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+    .Main_Buisness_support_container,
+    .customer_feedback_container,
+    .price_plan,
+    .cta
+    {
+        display: block;
+    }
+    .customer_box{
+        margin-top: 18px;
+    }
+}
+
+/*  +++++++++++++++++++
+++++++++++++++++++++++++++
+    Third Break Point
+++++++++++++++++++++++++++
+    +++++++++++++++++++ */
+@media(max-width:700px){
+    .Solution_content_boxs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .link{
+        text-align: center;
+    }
+    .Solution_box{
+        padding: 2px;
+    }
+    .solution_box_content h2{
+        padding-top: 16px;
+    }
+    .Team_members_details_boxs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .team_member_img img{
+        height: 15rem;
+    }
+    .team_member_detail{
+        padding: 1rem 1.5rem;
+        position: absolute;
+        top: 260px;
+        left: 35px;
+    }    
+    .team_member_detail h3{
+        font-size: 1.1rem;
+    }
+    .team_member_detail h4{
+        font-size: 1rem;
+    }
+    .footer_content_container{
+        display: block;
+    }
+    .Testimonial_stats_container h2{
+        font-size: 2rem;
+    }
+    .Testimonial_stats_container h4{
+        font-size: 1rem;
+    }
+    .cta {
+        padding: 1rem;
+      }
+      .copyright_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Navigation Bar */
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:teal;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        }
+        
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+        }
+    .menu li + li {
+        margin-top: 12px;
+        }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+        }
+        .hamburger {
+        display: block;
+        }
+        .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+        }
+        .dropdown li:hover {
+        background-color: #4c9e9e;
+        }
+}
+
+/*  +++++++++++++++++++
+++++++++++++++++++++++++++
+    Fourth Break Point
+++++++++++++++++++++++++++
+    +++++++++++++++++++ */
+@media(max-width:550px){
+    .content h3{
+        font-size: 1rem;
+     }
+     .content h1{
+        font-size: 2.2rem;
+    }
+    .services_content_box_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content button,
+    .Services_btn button,
+    .Business_support_btn,
+    .btn button,
+    .btn-FORM button{
+        font-size: 14px;
+        padding: 14px 24px;
+        font-weight: 600;
+    }
+    .Team_members_details_boxs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_member_img img{
+        height: 15rem;
+    }
+    .team_member_detail{
+        padding: 1rem 1.5rem;
+        position: absolute;
+        top: 260px;
+        left: 35px;
+    }    
+    .team_member_detail h3{
+        font-size: 1.1rem;
+    }
+    .team_member_detail h4{
+        font-size: 1rem;
+    }
+    .sub_heading{
+        font-size: 1.5rem;
+    }
+    .cta-form{
+        display: block;
+    }
+    #TextArea{
+        margin-top: 1rem;
+    }
+    .Main_footer_Container{
+        padding: 10px;
+    }
+    .logo a{
+        font-size: 22px;
+        padding-left: 10px;
+        }
+    .Main_Solution_Container,
+    .Main_Buisness_support_container,
+    .Main_team_Members_container,
+    .Main_testimonial_container,
+    .Main_price_plans_container,
+    .section-cta,
+    .Main_heroSection_container,
+    .Main-services-container{
+        padding: 2rem 14px;
+    }
+}
+
+/*  +++++++++++++++++++
+++++++++++++++++++++++++++
+    fifth Break Point
+++++++++++++++++++++++++++
+    +++++++++++++++++++ */
+@media(max-width:360px){
+
+.Main_heroSection_container{
+        height: 200%;
+    }
+    .content h3{
+        font-size: 14px
+     }
+     .content h1{
+         font-size: 26px;
+     }
+     .service_title_container h5,
+     .Solution_title_container h5,
+     .Business_support_content h5,
+     .Team_member_titel_container h5,
+     .testimonial_title_container h5,
+     .price_plans_title h5{
+         font-size: 14px;
+     }
+     .service_title_container h1,
+     .Solution_title_container h2,
+     .Business_support_content h2,
+     .Team_member_titel_container h2,
+     .testimonial_title_container h2,
+     .price_plans_title h2,
+     .heading-secondary{
+         font-size: 18px;
+         padding-bottom: 2rem;
+     }
+     .service_box_details h3,
+     .service_box_details a,
+     .service_box_details a span{
+        font-size: 16px;
+    }
+    .service_box_details p,
+    .Business_support_content li,
+    .feedback{
+        font-size: 14px;
+        font-weight: 600;
+        /* text-align: justify; */
+    }
+    .Business_support_content p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .customer_img h3{
+        font-size: 16px;
+    }
+    .customer_img h3 span{
+        font-size: 13px;
+    }
+    .customer_box{
+       padding: 10px;
+    }
+    .sub_heading{
+        font-size: 16px;
+    }
+    .Input_box button{
+        font-size: 10px;
+        padding: 10px;
+    } 
+    .Input_box input{
+       font-size: 12px;
+    }
+    .Testimonial_stats_container h2{
+        font-size: 26px;
+    }
+    .Testimonial_stats_container h4{
+        font-size: 14px;
+    }
+    .cta-text-box {
+        padding: 0;
+      }
+}
